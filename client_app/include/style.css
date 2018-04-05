@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, footer, aside, nav, section, main, article{
+    display: block;
+}
+#wrapper{
+    max-width: 1024px;
+    margin: 0px auto;
+}
+.Calaculator{
+    margin-left: 300px;
+    /*border: 2px solid;*/
+    margin-top: 50px;
+    width: 360px;
+    padding: 25px;
+    height: 220px;
+    background: lightsteelblue;
+
+}
+input[type="number"]{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 53px;
+}
+.func label{
+    font-size: 25px;
+    display: inherit;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+.method label{
+   position: relative;
+    bottom: 215px;
+    display: inherit;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 25px;
+    left: 150px;
+
+}
+.Calaculator h1{
+    padding: 5px;
+    font-family: 'Annie Use Your Telescope', cursive;
+
+}
+.Calaculator section{
+    margin-top: -225px;
+    font-size: 30px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+button {
+    position: relative;
+    bottom: 292px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 35px;
+    left: 240px;
+}

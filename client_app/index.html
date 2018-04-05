@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>get data page</title>
+        <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="include/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="include/style.css">
+    </head>
+        <body>
+            <div id="wrapper">
+                 <div class="Calaculator">
+                    <h1> 'Get-Post-Put' CALCULATOR </h1>
+                     <form action="" method="">
+                        <p> <input type="number" name="num1" id="n1" placeholder="Num1"></p>
+                        <p> <input type="number" name="num2" id="n2" placeholder="Num2"></p>
+                        <p> <input type="number" name="num3" id="n3" placeholder="Num3"></p>
+                        <div class="func">
+                            <label>Sum <input type="radio" name="func" value="sum" required></label> 
+                            <label>Avg <input type="radio" name="func" value="avg"></label>
+                            <label>Mul <input type="radio" name="func" value="mult"></label>
+                        </div>
+                        <div class="method">
+                            <label>Get <input type="radio" name="methodType" value="GET"></label>  
+                            <label>Post <input type="radio" name="methodType" value="POST"></label> 
+                            <label>Put <input type="radio" name="methodType" value="PUT"></label> 
+                        </div>
+                        <button type="button" name="button">Send</button>
+                    </form>
+                        <section class="result">Result: </section>
+                </div>
+             </div>
+        </body>
+</html>
